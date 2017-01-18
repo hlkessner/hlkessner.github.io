@@ -1,0 +1,34 @@
+li {
+  list-style: none;
+  display: inline;
+}
+/* Body section styling*/
+div#welcome {
+  height: 500px; 
+  background-image: url("/img/symphony.png");
+}
+div#bio {
+  height: 300px; 
+  background-image: url("/img/pink_rice.png");
+}
+div#container-fluid {
+  background-image: url("/img/grilled.png");
+}
+div#contact {
+  height: 100px;
+  background-image: url("/img/gold_scale.png");
+}
+/*Nav bar styling*/
+
+/*Media queries*/
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }

@@ -1,37 +1,82 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="UTF-8">
-<meta name="description" content="Halsey Kessner Portfolio">
-<meta name="keywords" content="HTML,CSS,javascript, portfolio, web developer">
-<meta name="author" content="Halsey Kessner">
-<link rel="stylesheet" href="main.css">
-<title>Halsey Kessner Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/main.css">
+  <link href="bootstrap/CSS/bootstrap.css" rel="stylesheet">
+  <title>Halsey Kessner Portfolio</title>
 </head>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Halsey Kessner</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#welcome">Home</a></li>
+      <li><a href="#bio">About Me</a></li>
+      <li><a href="#work">My Work</a></li>
+      <li><a href="#contact">Contact Me</a></li>
+    </ul>
+  </div>
+</nav>
+</div>
 
 <body>
-  <header><h1>Hello World!</h1></header>
+  <div id=welcome>
+    <h1>Hi! My name is Halsey</h1>
+    <img>
+    <h2>I'm a front-end web developer with a passion for usable design</h2>
+  </div>
   <!-- BioSection -->
-  <section id=bio>
+  <div id=bio>
     <h1>About Me</h1>
-      <p>
-        I'm a junior web devloper with experience in HTML, CSS and Javascript. 
-      </p>
+    <p>
+      I am an adaptable administrative professional with four years of experience in the timeshare industry who is looking to make a career change. I possess strong time management skills, problem solving skills and a proven track record of successfully working
+      as part of a team. I am seeking an entry-level web development position in order to apply the development skills I have learned through Seattle University’s Web Development Certification program. My goal is to blend my administrative skills with
+      the creativity of website design in order to become an established Front End Web Developer.
+    </p>
     <!--Portfolio Section -->
-    <section id=work>
-        <h1>My Work</h1>
-            <ul>
-              <li><a href="http://hkessner.com/wats1010-product-page/">Imaginary Product Page</a></li>
-              <li><a href="http://hkessner.com/wats1010-css-zen-garden/">CSS Zen Garden</a></li>
-            </ul>
+  </div>
+  <div id="container-fluid">
+    <h1>My Work</h1>
+    <div class="row">
+      <div class="col-md-6 col-lg-4">
+        <a href="http://hkessner.com/weatherapp/#/"><img class="img-responsive" src="img/weatherap.png"></a>
+        <p><a href="https://github.com/hlkessner/weatherapp/tree/gh-pages">Source Code</a></p>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <a href="http://hkessner.com/CatMapper/"><img class="img-responsive" src="img/CatMapper.png"></a>
+        <p><a href="https://github.com/hlkessner/CatMapper">Source Code</a></p>
+      </div>
+
+      <div class="col-md-6 col-lg-4">
+        <a href="http://hkessner.com/wats1020-flickr-search/"><img class="img-responsive" src="img/flickr.png"></a>
+        <p><a href="https://github.com/hlkessner/wats1020-flickr-search/tree/gh-pages">Source Code</a></p></div>
+      <div class="col-md-6 col-lg-4">
+        <a href="http://hkessner.com/wats1020-validating-form-data/"><img class="img-responsive" src="img/form_validation.png"></a>
+        <p><a href="https://github.com/hlkessner/wats1020-validating-form-data/tree/gh-pages">Source Code</a></p></div>
+
+      <div class="col-md-6 col-lg-4">
+        <a href="http://hkessner.com/wats1020-dom-basics/"><img class="img-responsive" src="img/fortune_cookie.png"></a>
+        <p class=code><a href="https://github.com/hlkessner/wats1020-dom-basics/tree/gh-pages">Source Code</a></p>
+      </div>
+
+
+    </div>
     <!--Contact Me -->
-      <section id=contact>
-   <h1>Contact Me</h1>
-        <ul>
-          <li><a href="https://www.facebook.com/halsey.kessner">Facebook</a></li>
-          <li><a href="https://twitter.com/HalseyKessner">Twitter</a></li>
-          <li><a href="https://www.linkedin.com/in/halsey-kessner-bb71376b?trk=nav_responsive_tab_profile">Linkedin</a></li>
-        </ul>
+    <div id=contact>
+      <h1>Contact Me</h1>
+      <ul>
+        <li><a href="https://www.facebook.com/halsey.kessner">Facebook</a></li>
+        <li><a href="https://twitter.com/HalseyKessner">Twitter</a></li>
+        <li><a href="https://www.linkedin.com/in/halsey-kessner-bb71376b?trk=nav_responsive_tab_profile">Linkedin</a></li>
+      </ul>
+    </div>
 </body>
 
 </html>

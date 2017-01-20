@@ -2,24 +2,57 @@ li {
   list-style: none;
   display: inline;
 }
+h1 {
+  font-family: 'Grand Hotel', cursive;
+  margin-top: none; 
+}
+p {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 20px; 
+}
+a {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 20px;  
+}
+img.img-responsive {
+  height: 350px; 
+}
+div.row {
+  margin-right: 3%;
+  margin-left: 3%;
+}
+div {
+  padding: none; 
+}
 /* Body section styling*/
 div#welcome {
   height: 500px; 
   background-image: url("/img/symphony.png");
+  margin-top: none; 
 }
 div#bio {
   height: 300px; 
-  background-image: url("/img/pink_rice.png");
+  background-color: rgba(183, 245, 226, 1);
+  margin-top: none; 
 }
 div#container-fluid {
   background-image: url("/img/grilled.png");
+  margin-top: none; 
 }
 div#contact {
   height: 100px;
-  background-image: url("/img/gold_scale.png");
+  background-color: rgba(239, 225, 228, 1);
+  margin-top: none; 
 }
 /*Nav bar styling*/
-
+nav.navbar.navbar-default {
+  background-color: rgba(251, 168, 162, 1);  
+  width: 100%;
+  margin-top: 0px; 
+}
+li.active {
+  background-color: rgba(253, 205, 201, 1);
+}
 /*Media queries*/
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */

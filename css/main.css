@@ -1,14 +1,23 @@
 li {
   list-style: none;
   display: inline;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 22px; 
+  
 }
 h1 {
   font-family: 'Grand Hotel', cursive;
   margin-top: none; 
+  font-size: 50px; 
 }
 p {
   font-family: 'Shadows Into Light Two', cursive;
-  font-size: 20px; 
+  font-size: 30px; 
+  padding: 20px; 
+  
+}
+img {
+  height: 300px; 
 }
 a {
   font-family: 'Shadows Into Light Two', cursive;
@@ -28,10 +37,15 @@ div {
 div#welcome {
   height: 500px; 
   background-image: url("/img/symphony.png");
-  margin-top: none; 
+  margin-top: none;  
+  text-align: center; 
+  padding: 20px; 
+  font-family: 'Grand Hotel', cursive;
+  margin-top: none;
+  
 }
 div#bio {
-  height: 300px; 
+  height: 400px; 
   background-color: rgba(183, 245, 226, 1);
   margin-top: none; 
 }

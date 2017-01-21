@@ -2,33 +2,58 @@ li {
   list-style: none;
   display: inline;
   font-family: 'Shadows Into Light Two', cursive;
-  font-size: 22px; 
-  
+  font-size: 20px; 
+  text-align: justify; 
+  color: rgba(107, 107, 107, 1);
 }
 h1 {
-  font-family: 'Grand Hotel', cursive;
-  margin-top: none; 
+  font-family: 'Lobster Two', cursive;
+  margin-top: 0px; 
   font-size: 50px; 
+  color: rgba(107, 107, 107, 1);
+  padding: .5%; 
+}
+h2 {
+  font-family: 'Lobster Two', cursive; 
+  font-size: 40px; 
+  color: rgba(107, 107, 107, 1);
 }
 p {
   font-family: 'Shadows Into Light Two', cursive;
-  font-size: 30px; 
-  padding: 20px; 
+  font-size: 25px; 
+  margin-left: 3%;
+  margin-right: 3%; 
+  padding: 1%; 
+  color: rgba(107, 107, 107, 1);
   
 }
 img {
   height: 300px; 
 }
+button {
+  background-color: rgba(251, 168, 162, 1);
+  border-radius: 8px;
+  width: 100%; 
+  outline: none; 
+  margin-top: 8px; 
+  margin-bottom: 8px;
+  box-shadow: rgba(251, 168, 162, 1); 
+  outline: none; 
+  border-style: none; 
+}
 a {
   font-family: 'Shadows Into Light Two', cursive;
-  font-size: 20px;  
+  font-size: 20px;
+  color: white; 
+
 }
 img.img-responsive {
   height: 350px; 
+  padding: 10px;  
 }
 div.row {
-  margin-right: 3%;
-  margin-left: 3%;
+  margin-right: 2%;
+  margin-left: 2%;
 }
 div {
   padding: none; 
@@ -45,8 +70,8 @@ div#welcome {
   
 }
 div#bio {
-  height: 400px; 
-  background-color: rgba(183, 245, 226, 1);
+  height: 100%; 
+  background-color: rgba(206, 232, 229, 1);
   margin-top: none; 
 }
 div#container-fluid {
@@ -54,7 +79,7 @@ div#container-fluid {
   margin-top: none; 
 }
 div#contact {
-  height: 100px;
+  height: 100%;
   background-color: rgba(239, 225, 228, 1);
   margin-top: none; 
 }
@@ -63,6 +88,7 @@ nav.navbar.navbar-default {
   background-color: rgba(251, 168, 162, 1);  
   width: 100%;
   margin-top: 0px; 
+  margin-bottom: 0px; 
 }
 li.active {
   background-color: rgba(253, 205, 201, 1);

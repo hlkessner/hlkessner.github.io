@@ -15,8 +15,9 @@ h1 {
 }
 h2 {
   font-family: 'Lobster Two', cursive; 
-  font-size: 40px; 
+  font-size: 25px; 
   color: rgba(107, 107, 107, 1);
+
 }
 p {
   font-family: 'Shadows Into Light Two', cursive;
@@ -27,19 +28,14 @@ p {
   color: rgba(107, 107, 107, 1);
   
 }
-img {
-  height: 300px; 
-}
-img.logo {
-  height: 500px; 
-}
+
 button {
   background-color: rgba(166, 166, 166, 1);
   border-radius: 8px;
   width: 100%; 
   outline: none; 
   margin-top: 8px; 
-  margin-bottom: 8px;
+  margin-bottom: 15px;
   box-shadow: rgba(251, 168, 162, 1); 
   outline: none; 
   border-style: none; 
@@ -50,13 +46,26 @@ a {
   color: white; 
 
 }
+img.me {
+  height: 300px; 
+  padding-left: 18%;
+   
+}
+/*logo styling*/
+img.logo {
+  height: 500px; 
+}
+/*Portfolio screenshots*/
 img.img-responsive {
   height: 350px; 
   padding: 10px;  
 }
+/*Contact method icons*/
 img.contact {
   height: 50px; 
+  display: inline; 
   margin-left: 15%; 
+  margin-bottom: 30px; 
 }
 div.row {
   margin-right: 2%;
@@ -78,7 +87,7 @@ div#welcome {
 }
 div#bio {
   height: 100%; 
-  background-color: rgba(250, 235, 238, 1);
+  background-color: rgba(239, 190, 200, 1);
   margin-top: none; 
 }
 div#container-fluid {
@@ -88,13 +97,13 @@ div#container-fluid {
 }
 div#contact {
   height: 100%;
-  background-color: rgba(239, 225, 228, 1);
+  background-color: rgba(224, 224, 224, 1);
   margin-top: none; 
    
 }
 /*Nav bar styling*/
 nav.navbar.navbar-default {
-  background-color: rgba(255, 163, 185, 1);  
+  background-color: rgba(224, 224, 224, 1);  
   width: 100%;
   margin-top: 0px; 
   margin-bottom: 0px; 
@@ -103,11 +112,13 @@ li.active {
   background-color: rgba(253, 205, 201, 1);
 }
 /*Media queries*/
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) { ... }
+@media (min-width: @screen-sm-min) {
+  img.contact {
+    margin-left: 0px; 
+  }
+}
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: @screen-md-min) { ... }

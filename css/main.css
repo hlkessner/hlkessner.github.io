@@ -30,8 +30,11 @@ p {
 img {
   height: 300px; 
 }
+img.logo {
+  height: 500px; 
+}
 button {
-  background-color: rgba(251, 168, 162, 1);
+  background-color: rgba(166, 166, 166, 1);
   border-radius: 8px;
   width: 100%; 
   outline: none; 
@@ -64,7 +67,7 @@ div {
 }
 /* Body section styling*/
 div#welcome {
-  height: 500px; 
+  height: 100%; 
   background-image: url("/img/symphony.png");
   margin-top: none;  
   text-align: center; 
@@ -75,12 +78,13 @@ div#welcome {
 }
 div#bio {
   height: 100%; 
-  background-color: rgba(206, 232, 229, 1);
+  background-color: rgba(250, 235, 238, 1);
   margin-top: none; 
 }
 div#container-fluid {
   background-image: url("/img/grilled.png");
   margin-top: none; 
+  height: 100%; 
 }
 div#contact {
   height: 100%;
@@ -90,7 +94,7 @@ div#contact {
 }
 /*Nav bar styling*/
 nav.navbar.navbar-default {
-  background-color: rgba(251, 168, 162, 1);  
+  background-color: rgba(255, 163, 185, 1);  
   width: 100%;
   margin-top: 0px; 
   margin-bottom: 0px; 

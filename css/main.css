@@ -1,135 +1,84 @@
-/* Font Styling */
-h1 {
-  font-family: 'Lobster Two', cursive;
-  margin-top: 0px; 
-  font-size: 50px; 
-  color: rgba(107, 107, 107, 1);
-  padding: .5%; 
-  padding-top: 10px; 
-  text-align: center; 
-  
+nav.navbar.navbar-default {
+  margin-bottom: 0px;
+  background-color: rgba(240, 236, 231, 1);
 }
-h2 {
-  font-family: 'Lobster Two', cursive; 
-  font-size: 25px; 
-  color: rgba(107, 107, 107, 1);
-  text-align: center; 
+img.logo {
+  width: 50%;
+  margin-left: 25%;
 
 }
+img.me {
+  height: 300px;
+  padding-left: 35%;
+
+}
+img.img-responsive {
+  padding-left: 5%;
+  padding-right: 5%;
+  height: 300px;
+}
+img.contact {
+  height: 60px;
+  margin-left: 16%;
+  margin-bottom: 30px;
+}
+
+img.tech {
+  height: 125px;
+  margin-left: 5%;
+  margin-bottom: 30px;
+}
 p {
-  font-family: 'Shadows Into Light Two', cursive;
-  font-size: 25px; 
-  margin-left: 3%;
-  margin-right: 3%; 
-  padding: 1%; 
-  color: rgba(107, 107, 107, 1);
+  font-family: "Pompiere", cursive;
+  font-size: 25px;
   text-align: center;
 }
 li {
+  font-family: "Pompiere", cursive;
   list-style: none;
-  display: inline;
-  font-family: 'Roboto', sans-serif;;
-  font-size: 20px; 
-  text-align: center; 
-  color: rgba(107, 107, 107, 1);
-}
-
-a {
-  font-family: 'Shadows Into Light Two', cursive;
   font-size: 20px;
-  color: white; 
+  display: inline;
+  text-align: center;
 
 }
-/*Button Styling*/
 button {
-  background-color: rgba(166, 166, 166, 1);
-  border-radius: 8px;
-  width: 100%; 
-  outline: none; 
-  margin-top: 8px; 
-  margin-bottom: 15px;
-  box-shadow: rgba(251, 168, 162, 1); 
-  outline: none; 
-  border-style: none; 
+  border-radius: 12px;
+  font-family: "Pompiere", cursive;
+  font-size: 20px;
+  background-color: white;
+  margin-bottom: 10%;
+  margin-top: 3%;
+  border: 1px, black;
+  width: 100%;
+
 }
-/*Headshot*/
-img.me {
-  height: 300px; 
-  padding-left: 30%;
-   
+a {
+  color: gray;
 }
-/*logo styling*/
-img.logo {
-  height: 500px; 
+div#work {
+  padding-top: 15px;
+  padding-left: 5%;
+  padding-right: 5%;
+
 }
-/*Portfolio screenshots*/
-img.img-responsive {
-  height: 350px; 
-  padding: 10px;  
-}
-/*Contact method icons*/
-img.contact {
-  height: 50px; 
-  display: inline; 
-  margin-left: 15%; 
-  margin-bottom: 30px; 
-}
-/*Bootstrap rows styling*/
-div.row {
-  margin-right: 2%;
-  margin-left: 2%;
-}
-div {
-  padding: none; 
-}
-/* Body section styling*/
-div#welcome {
-  height: 100%; 
+div#welcome, div#work {
   background-image: url("/img/grilled.png");
-  margin-top: none;  
-  text-align: center; 
-  padding: 20px; 
-  font-family: 'Grand Hotel', cursive;
-  margin-top: none;
-  
 }
 div#bio {
-  height: 100%; 
-  background-color: rgba(224, 224, 224, 1);
-  margin-top: none; 
+  background-color: #F0ECE7  ;
 }
-div#container-fluid {
-  background-image: url("/img/grilled.png");
-  margin-top: none; 
-  height: 100%; 
+div.col-md-12.col-lg-6 {
+  padding-right: 2%;
 }
-div#contact {
-  height: 100%;
-  background-color: rgba(224, 224, 224, 1);
-  margin-top: none; 
-   
+h1 {
+  font-family: "Pompiere", cursive;
+  font-size: 50px;
+  text-align: center;
+  padding: 5px;
 }
-/*Nav bar styling*/
-nav.navbar.navbar-default {
-  background-color: rgba(224, 224, 224, 1);  
-  width: 100%;
-  margin-top: 0px; 
-  margin-bottom: 0px; 
+h2 {
+  font-family: "Pompiere", cursive;
+  font-size: 35px;
+  text-align: center;
+  padding: 5px;
 }
-li.active {
-  background-color: rgba(253, 205, 201, 1);
-}
-/*Media queries*/
-
-/* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) {
-  img.contact {
-    margin-left: 0px; 
-  }
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { ... }
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { ... }
